@@ -1,0 +1,13 @@
+print("Make sure you know that calculator is case sensitive.")
+Liquidated = input('How much money is in liquidated assests?: ')
+Bank_amount = input("How much do you have in your bank?: ")
+do_you_invest = input("Do you invest? (Y)/(N): ")
+if do_you_invest.upper() == "Y":
+    invest_portfolio = input("How much is your portfolio worth?: ")
+    Networth = int(Liquidated) + int(Bank_amount) + int(invest_portfolio)
+    print("Your networth is:",(Networth))
+
+if do_you_invest.upper() == "N":
+    print("Now calculating networth.")
+    Networth_2 = int(Liquidated) + int(Bank_amount)
+    print(Networth_2)
