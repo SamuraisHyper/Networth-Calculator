@@ -1,0 +1,25 @@
+print("Make sure you know that calculator is case sensitive.")
+Cash = input('How much money is in cash?: ')
+Bank_amount = input("How much do you have in your bank?: ")
+do_you_buy_crypto = input("Do you buy crypto currencies: (Y)/(N)")
+if do_you_buy_crypto.upper() == "Y":
+    crypto_portfolio = input("How much is your crypto portfolio worth?: ")
+    networth_prestock = int(Cash) + int(Bank_amount) + int(crypto_portfolio)
+if do_you_buy_crypto.upper() == "N":
+    networth_prestock = int(Cash) + int(Bank_amount)
+property = input("How much do you have in property?: ")
+do_you_invest = input("Do you invest? (Y)/(N): ")
+if do_you_invest.upper() == "Y":
+    invest_portfolio = input("How much is your portfolio worth?: ")
+    Networth = int(networth_prestock) + int(invest_portfolio) + int(property)
+    print("Your networth is: ",Networth)
+elif do_you_buy_crypto.upper() == "Y":
+    Reenter_invest = input('Re-enter your investment portfolio amount: ')
+    Networth3 = int(Cash) + int(Bank_amount) + int(Reenter_invest) + int(crypto_portfolio) + int(property)
+    print("Your networth is: ",Networth3)
+
+
+if do_you_invest.upper() == "N":
+    print("Now calculating networth.")
+    Networth_2 = int(Cash) + int(Bank_amount) + int(property)
+    print(Networth_2)
