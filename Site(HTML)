@@ -1,0 +1,22 @@
+http://localhost:63342/pythonProject9/frontside.html?_ijt=7otf4j6oja7bai168esg1tst42
+^^^^SITE LINK^^^^
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Networth Calculator</title>
+    <style>
+        p{
+        font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Networth Calculator</h1>
+<text>This is a python-based calculator inwich is able to account for your full networth(excluding taxes)</text>
+    <a href="https://github.com/SamuraisHyper/Networth-Calculator/blob/a700ec2452e7b6b79ee4044514f2e3a339c5ac2d/Calculator%202.0(Python)"
+    <button style="background-color:black;color,green">Calculator</button>
+
+</body>
+</html>
